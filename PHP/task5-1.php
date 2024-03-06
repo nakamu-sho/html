@@ -8,12 +8,11 @@
 <body>
   <table>
         <?php for ($i = 1; $i <= 9; $i++) { ?>
-            <tr>
+           <tr>
                 <?php for ($j = 1; $j <= 9; $j++) { ?>
-                    <td><?php echo $i . ' × ' . $j . ' = ' . ($i * $j); ?></td>
+                    <td><?= $i . ' × ' . $j . ' = '.($i * $j);?>  </td>
                 <?php } ?>
             </tr>
         <?php } ?>
     </table>
 </body>
-</html>

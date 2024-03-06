@@ -6,6 +6,15 @@
   <title>Document</title>
 </head>
 <body>
-  
+<?php
+function max_number($n1, $n2) {
+    return max($n1, $n2);
+}
+
+$a = 9;
+$b = 21;
+$result = max_number($a, $b);
+echo "最大の数値は: " . $result;
+?>
 </body>
-<
+</html>
